@@ -1,0 +1,217 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font-size: 0px; }
+
+@font-face {
+  font-family: Open Sans Bold;
+  src: url("fonts/OpenSans/OpenSans-Bold.ttf"); }
+@font-face {
+  font-family: Open Sans Regular;
+  src: url("fonts/OpenSans/OpenSans-Regular.ttf"); }
+@font-face {
+  font-family: Lobster;
+  src: url("fonts/Lobster/Lobster-Regular.ttf"); }
+body {
+  background-image: url("images/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover; }
+
+header {
+  background: rgba(0, 120, 191, 0.7);
+  height: 100px; }
+
+.head {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+  height: 100px; }
+
+.logo {
+  width: 190px;
+  height: 70px;
+  background-image: url("images/logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 10px;
+  display: inline-block;
+  vertical-align: top; }
+
+.tel {
+  width: 245px;
+  height: 60px;
+  margin-top: 20px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 90px; }
+
+.tel__text1 {
+  font-family: Open Sans Regular;
+  font-size: 18px;
+  color: #55effd;
+  text-align: right;
+  display: block; }
+
+.tel__text2 {
+  font-family: Open Sans Bold;
+  font-size: 30px;
+  color: #fff;
+  text-align: right;
+  display: block; }
+
+.buttom {
+  display: inline-block;
+  vertical-align: top;
+  width: 330px;
+  height: 60px;
+  margin-top: 20px;
+  margin-left: 50px; }
+
+.buttom_silka {
+  width: 330px;
+  height: 60px;
+  background: #fed444;
+  border-radius: 50px;
+  border-bottom: 3px solid #a48108;
+  display: inline-block;
+  vertical-align: top;
+  font-family: Open Sans Regular;
+  font-size: 36px;
+  color: #3b3b3b;
+  text-align: center;
+  text-decoration: none;
+  line-height: 55px; }
+  .buttom_silka:hover {
+    background: #efc535; }
+
+.main {
+  margin-left: auto;
+  margin-right: auto;
+  height: 600px; }
+
+.nadpis {
+  margin-left: auto;
+  margin-right: auto;
+  width: 560px;
+  height: 165px;
+  text-align: center;
+  padding-top: 350px; }
+
+.nadpis__text1 {
+  font-family: Lobster;
+  font-size: 60px;
+  color: #fff; }
+
+.nadpis__text2 {
+  font-family: Lobster;
+  font-size: 40px;
+  color: #fff; }
+
+footer {
+  background: rgba(0, 120, 191, 0.7);
+  height: 241px;
+  margin-top: 70px;
+  margin-bottom: 50px; }
+
+.footer {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+  height: 241px;
+  position: relative; }
+
+.text {
+  width: 463px;
+  height: 141px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 47px;
+  text-align: left; }
+
+.text__text1 {
+  font-family: Open Sans Regular;
+  font-size: 18px;
+  color: #fff; }
+
+.text__text2 {
+  padding-top: 5px;
+  font-family: Open Sans Regular;
+  font-size: 14px;
+  color: #55effd; }
+
+.strelka {
+  background-image: url(images/strelka.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  vertical-align: top;
+  width: 161px;
+  height: 73px;
+  position: absolute;
+  top: 170px;
+  left: 390px;
+  z-index: 1; }
+
+.forma {
+  background: #fff;
+  border-radius: 40px;
+  width: 348px;
+  height: 355px;
+  display: block;
+  position: absolute;
+  right: 80px;
+  bottom: -30px;
+  text-align: center;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5); }
+
+.forma__text {
+  width: 346px;
+  height: 66px;
+  font-size: 14px;
+  font-family: Open Sans Regular;
+  color: black;
+  line-height: 23px; }
+
+.forma__nest {
+  width: 293px;
+  height: 168px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 45px; }
+
+.forma__nest1 {
+  width: 293px;
+  height: 46px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-top: 5px;
+  outline: 0;
+  font-size: 18px;
+  font-family: Open Sans Bold;
+  color: #3c3b3b;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px; }
+
+.forma__nest2 {
+  width: 300px;
+  height: 50px;
+  margin-top: 15px;
+  outline: 0;
+  font-size: 18px;
+  font-family: Open Sans Bold;
+  color: #3c3b3b;
+  margin-left: auto;
+  margin-right: auto;
+  background: #fed444;
+  border-radius: 50px;
+  border-bottom: 2px solid #a48108;
+  cursor: pointer; }
+  .forma__nest2:hover {
+    background: #efc535; }
+
+/*# sourceMappingURL=styles.css.map */

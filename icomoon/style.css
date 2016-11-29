@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?in2sde');
+  src:  url('fonts/icomoon.eot?in2sde#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?in2sde') format('truetype'),
+    url('fonts/icomoon.woff?in2sde') format('woff'),
+    url('fonts/icomoon.svg?in2sde#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"], .fp-prev:before, .fp-next:before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-phone:before {
+  content: "\e942";
+}
+.icon-location2:before {
+  content: "\e948";
+}
+.icon-zoom-in:before {
+  content: "\e987";
+}
+.icon-enlarge:before {
+  content: "\e989";
+}
+.icon-star-full:before {
+  content: "\e9d9";
+}
+.icon-checkmark:before {
+  content: "\ea10";
+}
+.icon-circle-right:before, .fp-next:before {
+  content: "\ea42";
+}
+.icon-circle-left:before, .fp-prev:before {
+  content: "\ea44";
+}
+.icon-google3:before {
+  content: "\ea8a";
+}
+.icon-blogger:before {
+  content: "\eab7";
+}
+.icon-skype:before {
+  content: "\eac5";
+}
+

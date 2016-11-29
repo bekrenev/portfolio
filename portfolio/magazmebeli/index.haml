@@ -1,0 +1,217 @@
+!!!5
+%html
+	%head
+		%meta{charset: "UTF-8"}
+		%title Магазин Мебели
+		%link{href: "styles.css", :rel => "stylesheet"}
+		%script{href: "jquery.js"}
+		%script{href: "script.js"}
+	%body
+		%div.wrapper
+			%nav
+				%div.nav1
+					%div.nav1__block1
+						%div.nav1__block1__icon						
+						%a.nav1__block1__oplata{href: "#"} Способ оплаты и доставки
+					%div.nav1__block2
+						%div.nav1__block2__icon						
+						%a.nav1__block2__sravnenie{href: "#"} Сравнение
+					%div.nav1__block3
+						%div.nav1__block3__icon						
+						%a.nav1__block3__izbr{href: "#"} Избранное
+					%div.nav1__block4
+						%div.nav1__block4__icon						
+						%a.nav1__block4__vhod{href: "#"} Вход
+					%div.nav1__block5
+						%a.nav1__block4__registr{href: "#"} Регистрация
+				%div.logo
+				%div.nav2
+					%div.nav2__block1
+						%div.nav2__block1__icon
+						%p.nav2__block1__tel +7 (495) 000-00-00
+					%div.nav2__block2
+						%div.nav2__block2__icon
+						%p.nav2__block2__kall Ежедневно</br>10:00-21:00
+					%div.nav2__block3
+						%div.nav2__block3__icon
+						%div.nav2__block3__text
+							%p.nav2__block3__korzina Корзина пуста
+							%a.nav2__block3__silka{href: "#"} перейти к оформлению
+				%div.forma
+					%input.forma__nest1{type: "text", placeholder: "Например: Комод Mia", required: ""}
+					%input.forma__nest2{type: "submit", value: "Искать"} 
+				%div.menu
+					%ul.menu__conteiner
+						%li.menu__element
+							%a.menu__link{href: "#"} Новинки
+						%li.menu__element
+							%a.menu__link{href: "#"} Ожидания
+						%li.menu__element
+							%a.menu__link{href: "#"} Мебель
+						%li.menu__element
+							%a.menu__link{href: "#"} Акссесуары
+						%li.menu__element
+							%a.menu__link{href: "#"} Детская
+						%li.menu__element
+							%a.menu__link{href: "#"} Свет
+						%li.menu__element
+							%a.menu__link{href: "#"} Распродажа
+						%li.menu__element
+							%a.menu__link{href: "#"} Галлерея
+						%li.menu__element.menu__element_last
+							%a.menu__link{href: "#"} Контакты
+			%header
+				%div.reklama
+					%div.reklama__image
+					%h3.reklama__text Акция &lt&ltАнтикризис&lt&lt: стильные товары со скидкой 60%	
+				%div.slaider
+					%div.slaider__block1
+						%p.slaider__block1__text Перемены</br>близко:<br>весенняя</br>экспозиция
+						%a.slaider__block1__buttom{href: "#"} Подробнее
+					%div.slaider__slaid
+						%div.slaid__conteiner
+							%div.conteiner__image.conteiner__image1
+							%div.conteiner__image.conteiner__image2
+							%div.conteiner__image.conteiner__image3
+							%div.conteiner__image.conteiner__image4
+							%div.conteiner__image.conteiner__image5
+						/ %div.slaider__roll
+						/ 	%div.slaider__roll__kryg
+						/ 	%div.slaider__roll__kryg
+						/ 	%div.slaider__roll__kryg
+						/ 	%div.slaider__roll__kryg
+						/ 	%div.slaider__roll__kryg						
+			%main
+				%div.prodaja
+					%div.novinki
+						%div.novinki__block1
+							%div.zagolovok	
+								%hr.zagolovok__line
+								%h3.zagolovok__name Диваны
+								%hr.zagolovok__line
+							%div.name
+								%span.name__text Комод Mia</br>MS1306/DOLAM-08-
+							%div.cena
+								%span.cena__text 83 100 P
+							%div.block1__image			
+						%div.novinki__block2
+							%div.zagolovok	
+								%hr.zagolovok__line
+								%h3.zagolovok__name Комоды
+								%hr.zagolovok__line
+							%div.name
+								%span.name__text Комод Mia</br>MS1306/DOLAM-08-
+							%div.cena
+								%span.cena__text 83 100 P
+							%div.block2__image	
+						%div.novinki__block3
+							%div.collum
+								%div.collum__image1
+								%div.name2
+									%span.name2__text Диван San Francisco /</br>JEAN SOFA / BU-203C	
+								%div.cena2
+									%span.cena2__text 94 999 p
+							%div.collum2
+								%div.collum__image2
+								%div.name2
+									%span.name2__text Диван San Francisco /</br>JEAN SOFA / BU-203C	
+								%div.cena2
+									%span.cena2__text 94 999 p			
+
+						%div.novinki__block4
+							%div.collum
+								%div.collum__image3
+								%div.name2
+									%span.name2__text Комод Martins T033
+								%div.cena2
+									%span.cena2__text 21 999 p
+							%div.collum2
+								%div.collum__image4
+								%div.name2
+									%span.name2__text Комод Martins T033	
+								%div.cena2
+									%span.cena2__text 21 999 p
+					%a.krizis{href: "#"}
+						%span.krizis__text Наш дизайнерский</br>ответ кризису
+					%a.new{href: "#"}
+						%span.new__text Новые</br>поступления
+				%div.newsale
+					%a.newsale__new{href: "#"}
+						%div.new__razdel
+							%span.razdel__text Новинки
+							%hr.razdel__line
+							%span.razdel__text2 Перейти в раздел
+						%div.new__image
+					%a.newsale__sale{href: "#"}
+						%div.sale__razdel
+							%span.razdel__text Скидки
+							%hr.razdel__line.razdel__line_margin
+							%span.razdel__text2 Перейти в раздел
+						%div.sale__image
+			%footer
+				%div.conteiner
+					%div.conteiner__block1
+						%div.block1__zagolovok
+							%span.zagolovok__z Контакты
+						%div.block1__tel
+							%div.tel__icon
+							%span.tel__nomer +7(495)000-00-00
+						%div.block1__day
+							%div.day__icon
+							%span.day__text Ежедневно, 10:00-21:00
+						%div.block1__mail
+							%div.mail__icon
+							%span.mail__text info@mail1.org
+							%div.mail__silka
+								%a.mail__link{href: "#"} напиши мне			
+					%div.conteiner__block2
+						%div.block2__zagolovok
+							%span.zagolovok__z О компании
+						%ul.block2__spisok
+							%li.spisok__element
+								%a.spisok__link{href: "#"} О нас	
+							%li.spisok__element
+								%a.spisok__link{href: "#"} Новости
+							%li.spisok__element
+								%a.spisok__link{href: "#"} СМИ о нас
+							%li.spisok__element
+								%a.spisok__link{href: "#"} Вакансии
+							%li.spisok__element
+								%a.spisok__link{href: "#"} Контакты
+					%div.conteiner__block3
+						%div.block3__zagolovok 
+							%span.zagolovok__z В помощь покупателю
+						%ul.block3__spisok1
+							%li.spisok__element
+								%a.spisok__link{href: "#"} Оплата заказа	
+							%li.spisok__element
+								%a.spisok__link{href: "#"} Доставка
+							%li.spisok__element
+								%a.spisok__link{href: "#"} Сервис
+							%li.spisok__element
+								%a.spisok__link{href: "#"} Гарантии
+							%li.spisok__element
+								%a.spisok__link{href: "#"} Возврат товара
+						%ul.block3__spisok2
+							%li.spisok__element
+								%a.spisok__link{href: "#"} Производители	
+							%li.spisok__element
+								%a.spisok__link{href: "#"} Карта сайта
+							%li.spisok__element
+								%a.spisok__link{href: "#"} Наши реквизиты
+							%li.spisok__element
+								%a.spisok__link{href: "#"} Письмо директору
+				%div.conteiner2
+					%div.conteiner2__elements
+						%a.conteiner2__image1{href: "#"}
+						%a.conteiner2__image2{href: "#"}
+						%a.conteiner2__image3{href: "#"}
+						%a.conteiner2__image4{href: "#"}
+						%a.conteiner2__image5{href: "#"}						
+
+
+
+
+
+
+
