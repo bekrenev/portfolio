@@ -23,5 +23,5 @@ $("#fullpage").fullpage({
 
   setTimeout(function(){
     $('body').addClass('loaded'); 
-  }, 1000);
+  }, 500);
 });
